@@ -84,7 +84,30 @@ Cada região tem sua própria **Elite Four + Campeão** — três "campeonatos" 
 
 **Pós-jogo:** **Liga das Três Regiões** — um torneio final que reúne os três Campeões anteriores + o jogador, coroando um "Grande Campeão" — conteúdo pós-game natural, no espírito dos hacks tipo Light Platinum que têm bastante conteúdo depois dos créditos.
 
-**[ABERTO]** Tipos/temas de cada líder de ginásio e membro de Elite Four — próxima passada de design.
+### 7.1 Terravia — Cidades e Ginásios
+
+Decisão de produção: as 8 cidades de Terravia reaproveitam a geografia já existente no pokeemerald-expansion (mapas de Hoenn), apenas renomeadas/re-ambientadas — evita ter que desenhar 8 mapas do zero e mantém uma progressão de dificuldade/tipos já testada pela Game Freak. Mapas totalmente originais ficam para Umbrisk e Aetheris, onde a identidade visual da história pesa mais.
+
+| # | Cidade (mapa base) | Líder | Tipo |
+|---|---|---|---|
+| — | *Cidade inicial* (Littleroot) | — | — *(nome a definir; sem ginásio)* |
+| 1 | Pedraforte (Rustboro) | Talio | Pedra |
+| 2 | Ilha do Farol (Dewford) | Duque | Lutador |
+| 3 | Vataria (Mauville) | Coré | Elétrico |
+| 4 | Brasa Alta (Lavaridge) | Ignez | Fogo |
+| 5 | Guarda-Sul (Petalburg) | Ivo | Normal |
+| 6 | Arvoreto (Fortree) | Aslin | Voador |
+| 7 | Ilha Gêmea (Mossdeep) | Tal & Iza (dupla) | Psíquico |
+| 8 | Véu-Fundo (Sootopolis) | Jonar | Água |
+
+**Elite Four de Terravia** (mapa base: Pokémon League de Hoenn):
+- Sídon — Sombrio
+- Febe — Fantasma
+- Gêlida — Gelo
+- Draco — Dragão
+- **Campeã: Estela**
+
+Todos os nomes acima são rascunho — fáceis de trocar depois, o que importa agora é ter algo concreto pra colocar nos mapas.
 
 ---
 
@@ -143,10 +166,11 @@ A ideia é **não tentar construir as três regiões de uma vez** — isso é o 
 
 ## 12. Decisões em aberto (resumo)
 
-- [ ] Nomes de cidades e geografia detalhada das 3 regiões
+- [ ] Nome da cidade inicial (as outras 7 cidades + líderes de Terravia já têm rascunho, seção 7.1)
+- [ ] Nomes de cidades e geografia detalhada de Umbrisk e Aetheris
 - [ ] Nome padrão do protagonista/rival
-- [ ] Tipos e times de cada líder de ginásio e Elite Four (24 líderes + 12 Elite Four + 3 campeões no total)
-- [ ] Lista final de espécies com Mega Evolução
+- [x] Tipos e times dos líderes de ginásio/Elite Four de Terravia (rascunho, seção 7.1) — falta Umbrisk e Aetheris
+- [ ] Lista final de espécies com Mega Evolução (Mega Empoleon já implementada como prova de conceito)
 - [ ] Colocação exata de cada lendário no mapa
 - [ ] Dex regional detalhada (espécie por espécie) de cada região
 - [ ] Nome/identidade visual da Equipe Ruína (uniformes, logo, líder final)
