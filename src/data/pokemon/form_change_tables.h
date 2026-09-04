@@ -2179,5 +2179,17 @@ static const struct FormChange sTerapagosFormChangeTable[] =
 };
 #endif //P_FAMILY_TERAPAGOS
 
+#if P_FAMILY_PIPLUP
+static const struct FormChange sEmpoleonFormChangeTable[] =
+{
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_EMPOLEON_MEGA, ITEM_EMPOLEONITE},
+#endif
+    {FORM_CHANGE_FAINT,                         SPECIES_EMPOLEON},
+    {FORM_CHANGE_END_BATTLE,                    SPECIES_EMPOLEON},
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_PIPLUP
+
 #undef WHEN_LEARNED
 #undef WHEN_FORGOTTEN

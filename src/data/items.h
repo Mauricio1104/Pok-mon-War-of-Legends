@@ -7307,6 +7307,24 @@ const struct ItemInfo gItemsInfo[] =
         .iconPalette = gItemIconPalette_Glimmoranite,
     },
 
+    [ITEM_EMPOLEONITE] =
+    {
+        .name = ITEM_NAME("Empoleonite"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = COMPOUND_STRING(
+            "A fragment of the ancient War of\n"
+            "Legends. Enables Empoleon to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .sortType = ITEM_TYPE_MEGA_STONE,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_WaterStone,
+        .iconPalette = gItemIconPalette_WaterStone,
+    },
+
 // Gems
 #if I_PRICE >= GEN_9
     #define GEM_PRICE 15000

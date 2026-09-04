@@ -666,7 +666,72 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         )
         .levelUpLearnset = sEmpoleonLevelUpLearnset,
         .teachableLearnset = sEmpoleonTeachableLearnset,
+        .formSpeciesIdTable = sEmpoleonFormSpeciesIdTable,
+        .formChangeTable = sEmpoleonFormChangeTable,
     },
+
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_EMPOLEON_MEGA] =
+    {
+        .baseHP        = 84,
+        .baseAttack    = 116,
+        .baseDefense   = 108,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 141,
+        .baseSpDefense = 121,
+        .types = MON_TYPES(TYPE_WATER, TYPE_STEEL),
+        .catchRate = 45,
+        .expYield = 300,
+        .evYield_SpAttack = 3,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FIELD),
+        .abilities = { ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY },
+        .bodyColor = BODY_COLOR_BLUE,
+        .speciesName = _("Empoleon"),
+        .cryId = CRY_EMPOLEON,
+        .natDexNum = NATIONAL_DEX_EMPOLEON,
+        .categoryName = _("Emperor"),
+        .height = 19,
+        .weight = 1050,
+        .description = COMPOUND_STRING(
+            "A fragment of the War of Legends'\n"
+            "ancient power resonates with its crest,\n"
+            "forging blades of solid ice around\n"
+            "its wings and horns."),
+        .pokemonScale = 259,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 1,
+        .frontPic = gMonFrontPic_Empoleon,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(0, 1),
+            ANIMCMD_FRAME(1, 36),
+            ANIMCMD_FRAME(0, 10),
+        ),
+        .frontAnimId = ANIM_V_STRETCH,
+        .backPic = gMonBackPic_Empoleon,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
+        .palette = gMonPalette_Empoleon,
+        .shinyPalette = gMonShinyPalette_Empoleon,
+        .iconSprite = gMonIcon_Empoleon,
+        .iconPalIndex = 0,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
+        SHADOW(2, 12, SHADOW_SIZE_M)
+        FOOTPRINT(Empoleon)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sEmpoleonLevelUpLearnset,
+        .teachableLearnset = sEmpoleonTeachableLearnset,
+        .formSpeciesIdTable = sEmpoleonFormSpeciesIdTable,
+        .formChangeTable = sEmpoleonFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_PIPLUP
 
 #if P_FAMILY_STARLY

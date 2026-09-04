@@ -2568,3 +2568,13 @@ static const u16 sTerapagosFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_TERAPAGOS
+
+#if P_FAMILY_PIPLUP
+static const u16 sEmpoleonFormSpeciesIdTable[] = {
+    SPECIES_EMPOLEON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_EMPOLEON_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_PIPLUP
